@@ -1,7 +1,13 @@
-import { Button } from "@/components/ui/button";
+import React from "react";
+
+import NavBar from "@/components/NavBar";
 
 const DashboardPage = () => {
-  return <Button>Click me</Button>;
-}
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
+};
 
-export default DashboardPage
+export default DashboardPage;
