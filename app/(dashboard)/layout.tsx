@@ -1,6 +1,7 @@
 import React from "react";
 
 import SideBar from "@/components/SideBar";
+import NavBar from "@/components/NavBar";
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -9,6 +10,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
         <SideBar />
       </div>
       <main className="md:pl-72">
+        <NavBar />
         {children}
       </main>
     </div>
